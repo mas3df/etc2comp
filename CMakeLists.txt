@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-cmake_minimum_required(VERSION 2.8.9)
+cmake_minimum_required(VERSION 4.1)
 project(EtcTest)
 
 set (CMAKE_CXX_STANDARD 11)
@@ -27,3 +27,4 @@ ELSE ()
 ENDIF ()
 ADD_SUBDIRECTORY(EtcLib)
 ADD_SUBDIRECTORY(EtcTool)
+
