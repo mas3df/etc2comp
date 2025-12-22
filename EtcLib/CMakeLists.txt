@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+cmake_minimum_required(VERSION 4.1)
 project(EtcLib)
 include_directories(./Etc)
 include_directories(./EtcCodec)
@@ -22,3 +22,4 @@ file(GLOB SOURCES
 	${PROJECT_SOURCE_DIR}/Etc/*.cpp
 	${PROJECT_SOURCE_DIR}/EtcCodec/*.cpp)
 ADD_LIBRARY(EtcLib ${SOURCES})
+
