@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+cmake_minimum_required(VERSION 4.1)
 project(EtcTool)
 include_directories(../EtcLib/Etc)
 include_directories(../EtcLib/EtcCodec)
@@ -25,4 +25,5 @@ file(GLOB SOURCES
 add_executable(EtcTool ${SOURCES})
 
 target_link_libraries (EtcTool EtcLib)
+
 
